@@ -29,4 +29,4 @@ def create_record(azara_record, rui_record):
     :return: tuple or str - the combined record (if compatible), or the string "not a match" (if incompatible).
     """
 
-    return azara_record + rui_record if azara_record[1] == rui_record[1][0] + rui_record[1][1] else "not match"
+    return azara_record + rui_record if azara_record[1] == rui_record[1][0] + rui_record[1][1] else "not a match"
